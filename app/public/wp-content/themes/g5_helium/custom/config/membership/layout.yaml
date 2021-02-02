@@ -1,0 +1,217 @@
+version: 2
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: home_-_particles
+  timestamp: 1605213405
+layout:
+  navigation: {  }
+  /header/: {  }
+  /intro/: {  }
+  /features/:
+    -
+      - 'onepage-menu-5763 20'
+      - 'system-content-3614 80'
+  /utility/: {  }
+  /above/: {  }
+  /testimonials/: {  }
+  /expanded/: {  }
+  /container-main/:
+    -
+      -
+        'mainbar 75': {  }
+      -
+        'sidebar 25': {  }
+  footer: {  }
+  offcanvas: {  }
+structure:
+  navigation:
+    type: section
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - children
+  header:
+    attributes:
+      boxed: ''
+      class: g-flushed
+  intro:
+    type: section
+    attributes:
+      boxed: ''
+  features:
+    type: section
+    attributes:
+      boxed: ''
+  utility:
+    type: section
+    attributes:
+      boxed: ''
+      class: ''
+  above:
+    type: section
+    attributes:
+      boxed: ''
+  testimonials:
+    type: section
+    attributes:
+      boxed: ''
+  expanded:
+    type: section
+    attributes:
+      boxed: ''
+  mainbar:
+    type: section
+    subtype: main
+  sidebar:
+    type: section
+    subtype: aside
+  container-main:
+    attributes:
+      boxed: ''
+  footer:
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - children
+  offcanvas:
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - children
+content:
+  onepage-menu-5763:
+    title: 'OnePage Menu'
+    attributes:
+      stickyoffset: '130'
+      smoothscrolloffset: '120'
+      boundary: '#g-footer'
+      items:
+        -
+          title: Membership
+          icon: ''
+          link: 'http://lapct2.local/membership'
+          subtitle1: ''
+          subicon1: ''
+          sublink1: ''
+          subtitle2: ''
+          subicon2: ''
+          sublink2: ''
+          subtitle3: ''
+          subicon3: ''
+          sublink3: ''
+          subtitle4: ''
+          subicon4: ''
+          sublink4: ''
+          subtitle5: ''
+          subicon5: ''
+          sublink5: ''
+          class: ''
+          name: Membership
+        -
+          title: Join
+          icon: ''
+          link: 'http://lapct2.local/membership/join/'
+          subtitle1: ''
+          subicon1: ''
+          sublink1: ''
+          subtitle2: ''
+          subicon2: ''
+          sublink2: ''
+          subtitle3: ''
+          subicon3: ''
+          sublink3: ''
+          subtitle4: ''
+          subicon4: ''
+          sublink4: ''
+          subtitle5: ''
+          subicon5: ''
+          sublink5: ''
+          class: ''
+          name: Join
+        -
+          title: 'Member Benefits'
+          icon: ''
+          link: 'http://lapct2.local/membership/member-benefits/'
+          subtitle1: ''
+          subicon1: ''
+          sublink1: ''
+          subtitle2: ''
+          subicon2: ''
+          sublink2: ''
+          subtitle3: ''
+          subicon3: ''
+          sublink3: ''
+          subtitle4: ''
+          subicon4: ''
+          sublink4: ''
+          subtitle5: ''
+          subicon5: ''
+          sublink5: ''
+          class: ''
+          name: 'Member Benefits'
+        -
+          title: 'Our Member'
+          icon: ''
+          link: 'http://lapct2.local/membership/our-members/'
+          subtitle1: ''
+          subicon1: ''
+          sublink1: ''
+          subtitle2: ''
+          subicon2: ''
+          sublink2: ''
+          subtitle3: ''
+          subicon3: ''
+          sublink3: ''
+          subtitle4: ''
+          subicon4: ''
+          sublink4: ''
+          subtitle5: ''
+          subicon5: ''
+          sublink5: ''
+          class: ''
+          name: 'Our Member'
+        -
+          title: 'Members'' Gallery'
+          icon: ''
+          link: 'http://lapct2.local/membership/members-gallery/'
+          subtitle1: ''
+          subicon1: ''
+          sublink1: ''
+          subtitle2: ''
+          subicon2: ''
+          sublink2: ''
+          subtitle3: ''
+          subicon3: ''
+          sublink3: ''
+          subtitle4: ''
+          subicon4: ''
+          sublink4: ''
+          subtitle5: ''
+          subicon5: ''
+          sublink5: ''
+          class: ''
+          name: 'Members'' Gallery'
+        -
+          title: 'Member of the Month'
+          icon: ''
+          link: 'http://lapct2.local/membership/member-of-the-month/'
+          subtitle1: ''
+          subicon1: ''
+          sublink1: ''
+          subtitle2: ''
+          subicon2: ''
+          sublink2: ''
+          subtitle3: ''
+          subicon3: ''
+          sublink3: ''
+          subtitle4: ''
+          subicon4: ''
+          sublink4: ''
+          subtitle5: ''
+          subicon5: ''
+          sublink5: ''
+          class: ''
+          name: 'Member of the Month'

@@ -1,0 +1,5 @@
+preset: preset1
+main:
+  text-color: '#4c4c4c'
+base:
+  text-color: '#000000'

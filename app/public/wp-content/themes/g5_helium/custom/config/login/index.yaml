@@ -1,0 +1,53 @@
+name: login
+timestamp: 1606082690
+version: 7
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: default
+  timestamp: 1604604209
+positions:
+  aside: Aside
+  sidebar: Sidebar
+sections:
+  navigation: Navigation
+  intro: Intro
+  features: Features
+  utility: Utility
+  above: Above
+  testimonials: Testimonials
+  expanded: Expanded
+  header: Header
+  aside: Aside
+  sidebar: Sidebar
+  mainbar: Mainbar
+  footer: Footer
+  offcanvas: Offcanvas
+particles:
+  content:
+    system-content-6644: 'Page Content'
+  loginform:
+    loginform-6294: 'Login Form'
+  position:
+    position-position-4734: Aside
+    position-position-3949: Sidebar
+  logo:
+    logo-9571: 'Logo / Image'
+    logo-6958: 'Logo / Image'
+  copyright:
+    copyright-1736: Copyright
+  horizontalmenu:
+    horizontalmenu-9034: 'Horizontal Menu'
+  totop:
+    totop-8670: 'To Top'
+  mobile-menu:
+    mobile-menu-5697: Mobile-menu
+  menu:
+    menu-4028: Menu
+  spacer:
+    spacer-2006: Spacer
+inherit:
+  default:
+    navigation: navigation
+    logo-6958: logo-3690
+    menu-4028: menu-5282
+    spacer-2006: spacer-5958

@@ -1,0 +1,186 @@
+version: 2
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: default
+  timestamp: 1602462450
+layout:
+  header: {  }
+  /navigation/: {  }
+  /main/:
+    -
+      - 'onepage-menu-4512 20'
+      - 'system-content-4739 80'
+  footer: {  }
+  offcanvas:
+    -
+      - 'mobile-menu-8331 50'
+      - 'mobile-menu-3877 50'
+structure:
+  header:
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - children
+  navigation:
+    type: section
+    attributes:
+      boxed: ''
+  main:
+    attributes:
+      boxed: ''
+  footer:
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - children
+  offcanvas:
+    attributes:
+      position: g-offcanvas-left
+      class: ''
+      extra: {  }
+      swipe: '1'
+      css3animation: '1'
+content:
+  onepage-menu-4512:
+    title: 'OnePage Menu'
+    attributes:
+      stickyoffset: '130'
+      smoothscrolloffset: '120'
+      boundary: '#g-footer'
+      items:
+        -
+          title: Membership
+          icon: ''
+          link: 'http://lapct2.local/membership/'
+          subtitle1: ''
+          subicon1: ''
+          sublink1: ''
+          subtitle2: ''
+          subicon2: ''
+          sublink2: ''
+          subtitle3: ''
+          subicon3: ''
+          sublink3: ''
+          subtitle4: ''
+          subicon4: ''
+          sublink4: ''
+          subtitle5: ''
+          subicon5: ''
+          sublink5: ''
+          class: ''
+          extra: {  }
+          name: Membership
+        -
+          title: Join
+          icon: ''
+          link: 'http://lapct2.local/membership/join/'
+          subtitle1: ''
+          subicon1: ''
+          sublink1: ''
+          subtitle2: ''
+          subicon2: ''
+          sublink2: ''
+          subtitle3: ''
+          subicon3: ''
+          sublink3: ''
+          subtitle4: ''
+          subicon4: ''
+          sublink4: ''
+          subtitle5: ''
+          subicon5: ''
+          sublink5: ''
+          class: ''
+          extra: {  }
+          name: Join
+        -
+          title: 'Member Benefits'
+          icon: ''
+          link: 'http://lapct2.local/membership/member-benefits/'
+          subtitle1: ''
+          subicon1: ''
+          sublink1: ''
+          subtitle2: ''
+          subicon2: ''
+          sublink2: ''
+          subtitle3: ''
+          subicon3: ''
+          sublink3: ''
+          subtitle4: ''
+          subicon4: ''
+          sublink4: ''
+          subtitle5: ''
+          subicon5: ''
+          sublink5: ''
+          class: ''
+          extra: {  }
+          name: 'Member Benefits'
+        -
+          title: 'Members'' Gallery'
+          icon: ''
+          link: 'http://lapct2.local/membership/members-gallery/'
+          subtitle1: ''
+          subicon1: ''
+          sublink1: ''
+          subtitle2: ''
+          subicon2: ''
+          sublink2: ''
+          subtitle3: ''
+          subicon3: ''
+          sublink3: ''
+          subtitle4: ''
+          subicon4: ''
+          sublink4: ''
+          subtitle5: ''
+          subicon5: ''
+          sublink5: ''
+          class: ''
+          extra: {  }
+          name: 'Members'' Gallery'
+        -
+          title: 'Member of the Month'
+          icon: ''
+          link: 'http://lapct2.local/membership/member-of-the-month/'
+          subtitle1: ''
+          subicon1: ''
+          sublink1: ''
+          subtitle2: ''
+          subicon2: ''
+          sublink2: ''
+          subtitle3: ''
+          subicon3: ''
+          sublink3: ''
+          subtitle4: ''
+          subicon4: ''
+          sublink4: ''
+          subtitle5: ''
+          subicon5: ''
+          sublink5: ''
+          class: ''
+          extra: {  }
+          name: 'Member of the Month'
+        -
+          title: 'Our Members'
+          icon: ''
+          link: 'http://lapct2.local/membership/our-members/'
+          subtitle1: ''
+          subicon1: ''
+          sublink1: ''
+          subtitle2: ''
+          subicon2: ''
+          sublink2: ''
+          subtitle3: ''
+          subicon3: ''
+          sublink3: ''
+          subtitle4: ''
+          subicon4: ''
+          sublink4: ''
+          subtitle5: ''
+          subicon5: ''
+          sublink5: ''
+          class: ''
+          extra: {  }
+          name: 'Our Members'
+  mobile-menu-8331:
+    title: 'Mobile Menu'

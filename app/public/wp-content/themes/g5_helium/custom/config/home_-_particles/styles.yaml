@@ -1,0 +1,12 @@
+preset: preset2
+base:
+  background: '#666666'
+  text-color: '#424753'
+accent:
+  color-1: 'rgba(0, 0, 0, 0.48)'
+  color-2: 'rgba(76, 173, 158, 0)'
+header:
+  background-overlay: disabled
+features:
+  background: '#575757'
+  text-color: '#424753'

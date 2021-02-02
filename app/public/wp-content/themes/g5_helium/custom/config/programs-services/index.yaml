@@ -1,0 +1,62 @@
+name: programs-services
+timestamp: 1606085015
+version: 7
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: home_-_particles
+  timestamp: 1605213405
+positions: {  }
+sections:
+  navigation: Navigation
+  intro: Intro
+  features: Features
+  utility: Utility
+  above: Above
+  testimonials: Testimonials
+  expanded: Expanded
+  header: Header
+  mainbar: Mainbar
+  sidebar: Sidebar
+  footer: Footer
+  offcanvas: Offcanvas
+particles:
+  logo:
+    logo-8146: 'Logo / Image'
+    logo-4591: 'Logo / Image'
+  menu:
+    menu-8204: Menu
+  spacer:
+    spacer-1965: Spacer
+    spacer-4686: Spacer
+  onepage-menu:
+    onepage-menu-5763: 'OnePage Menu'
+  content:
+    system-content-3614: 'Page Content'
+  custom:
+    custom-8647: 'Custom HTML'
+    custom-5610: 'Custom HTML'
+    custom-9639: 'Custom HTML'
+    custom-4886: 'Custom HTML'
+  googlemap:
+    googlemap-1047: 'Google Map'
+  totop:
+    totop-1023: 'To Top'
+  mobile-menu:
+    mobile-menu-5571: Mobile-menu
+inherit:
+  default:
+    navigation: navigation
+    logo-8146: logo-3690
+    menu-8204: menu-5282
+    spacer-1965: spacer-5958
+    footer: footer
+    logo-4591: logo-9571
+    custom-8647: custom-5839
+    custom-5610: custom-1439
+    custom-9639: custom-6479
+    custom-4886: custom-6935
+    googlemap-1047: googlemap-1665
+    spacer-4686: spacer-4445
+    totop-1023: totop-1779
+    offcanvas: offcanvas
+    mobile-menu-5571: mobile-menu-5697

@@ -1,0 +1,29 @@
+ordering:
+  sign-up: ''
+  login: ''
+  classes:
+    class-by-category:
+      classes-at-west-side-annex: ''
+  happenings: ''
+  membership: ''
+  instructors: ''
+  the-creative-portrait-exhibition: ''
+items:
+  sign-up:
+    object_id: 8
+  login:
+    object_id: 9
+  classes:
+    object_id: 14
+  classes/class-by-category:
+    object_id: 56
+  classes/class-by-category/classes-at-west-side-annex:
+    object_id: 58
+  happenings:
+    object_id: 20
+  membership:
+    object_id: 18
+  instructors:
+    object_id: 16
+  the-creative-portrait-exhibition:
+    object_id: 166

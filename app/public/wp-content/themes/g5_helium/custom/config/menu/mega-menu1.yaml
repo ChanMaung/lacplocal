@@ -1,0 +1,211 @@
+ordering:
+  classes: ''
+  membership:
+    join: ''
+    member-benefits:
+      bronze-level-membership: ''
+      silver-level-membership: ''
+      gold-level-membership: ''
+    our-members: ''
+    Members’-Gallery: ''
+    member-of-the-month: ''
+  'Programs-&#038;-Services':
+    one-year-professional-program: ''
+    certificate-programs:
+      general-course-of-study: ''
+      fine-art: ''
+      'Lighting-&#038;-Portraiture': ''
+      self-designed: ''
+    international-student-program: ''
+    street-shooting-program:
+      '': ''
+      '-world-exhibition': ''
+      street-shooting-classes: ''
+      los-angeles-street-shooting-collective: ''
+    youth-program: ''
+    mentorship-program: ''
+    sell-work-on-artsy: ''
+    private-lessons: ''
+    gift-certificates: ''
+    library: ''
+    The-Center-(Rental):
+      studio-rental: ''
+      gallery-rental: ''
+      digital-lab-rental: ''
+      conference-rental: ''
+      film-location-shoots: ''
+  happenings:
+    lacp-calendar: ''
+    upcoming-events: ''
+    Exposure-Weekend(Portfolio-Reviews): ''
+    gala: ''
+    street-week-in-la: ''
+    holiday-party: ''
+  my-account: ''
+  donate: ''
+  more/about-us: ''
+  more/instructors: ''
+  'more/Registration-&#038;-Info': ''
+  more/call-for-entries: ''
+  more/exhibitions: ''
+items:
+  classes:
+    object_id: 14
+  membership:
+    object_id: 18
+  membership/join:
+    object_id: 245
+  membership/member-benefits:
+    object_id: 247
+  membership/member-benefits/bronze-level-membership:
+    object_id: 249
+  membership/member-benefits/silver-level-membership:
+    object_id: 251
+  membership/member-benefits/gold-level-membership:
+    object_id: 254
+  membership/our-members:
+    object_id: 341
+  membership/Members’-Gallery:
+    object_id: 256
+  membership/member-of-the-month:
+    object_id: 258
+  'Programs-&#038;-Services':
+    object_id: 24
+  'Programs-&#038;-Services/one-year-professional-program':
+    object_id: 101
+  'Programs-&#038;-Services/certificate-programs':
+    object_id: 103
+  'Programs-&#038;-Services/certificate-programs/general-course-of-study':
+    object_id: 105
+  'Programs-&#038;-Services/certificate-programs/fine-art':
+    object_id: 107
+  'Programs-&#038;-Services/certificate-programs/Lighting-&#038;-Portraiture':
+    object_id: 109
+  'Programs-&#038;-Services/certificate-programs/self-designed':
+    object_id: 111
+  'Programs-&#038;-Services/international-student-program':
+    object_id: 113
+  'Programs-&#038;-Services/street-shooting-program':
+    object_id: 115
+  happenings/street-week-in-la:
+    object_id: 117
+  more/call-for-entries/street-shooting-around-the-world-exhibition:
+    object_id: 119
+  'Programs-&#038;-Services/street-shooting-program/street-shooting-classes':
+    object_id: 121
+  'Programs-&#038;-Services/street-shooting-program/los-angeles-street-shooting-collective':
+    object_id: 123
+  'Programs-&#038;-Services/youth-program':
+    object_id: 125
+  'Programs-&#038;-Services/mentorship-program':
+    object_id: 129
+  'Programs-&#038;-Services/sell-work-on-artsy':
+    object_id: 131
+  'Programs-&#038;-Services/private-lessons':
+    object_id: 133
+  'Programs-&#038;-Services/gift-certificates':
+    object_id: 135
+  'Programs-&#038;-Services/library':
+    object_id: 137
+  'Programs-&#038;-Services/The-Center-(Rental)':
+    object_id: 139
+  'Programs-&#038;-Services/The-Center-(Rental)/studio-rental':
+    object_id: 143
+  'Programs-&#038;-Services/The-Center-(Rental)/gallery-rental':
+    object_id: 145
+  'Programs-&#038;-Services/The-Center-(Rental)/digital-lab-rental':
+    object_id: 141
+  'Programs-&#038;-Services/The-Center-(Rental)/conference-rental':
+    object_id: 147
+  'Programs-&#038;-Services/The-Center-(Rental)/film-location-shoots':
+    object_id: 149
+  happenings:
+    object_id: 20
+  happenings/lacp-calendar:
+    object_id: 596
+  happenings/upcoming-events:
+    object_id: 262
+  happenings/Exposure-Weekend(Portfolio-Reviews):
+    object_id: 264
+  happenings/gala:
+    object_id: 52
+  happenings/holiday-party:
+    object_id: 355
+  more/about-us:
+    object_id: 22
+  'more/about-us/History-&#038;-Mission-Statement':
+    object_id: 73
+  'more/about-us/Julia-Dean,-Executive-Director':
+    object_id: 77
+  more/about-us/staff:
+    object_id: 79
+  more/about-us/board-of-directors:
+    object_id: 81
+  more/about-us/testimonials:
+    object_id: 85
+  more/about-us/press:
+    object_id: 87
+  'more/about-us/Officer-&#038;-Advisors':
+    object_id: 83
+  more/about-us/community-outreach:
+    object_id: 89
+  'more/about-us/Sponsors-&#038;-Partners':
+    object_id: 91
+  'more/about-us/Sponsors-&#038;-Partners/corporate-sponsors':
+    object_id: 93
+  'more/about-us/Sponsors-&#038;-Partners/corporate-partners':
+    object_id: 95
+  'more/about-us/Sponsors-&#038;-Partners/non-profits':
+    object_id: 97
+  'more/about-us/Sponsors-&#038;-Partners/contact-us':
+    object_id: 99
+  more/instructors:
+    object_id: 16
+  'more/Registration-&#038;-Info':
+    object_id: 26
+  'more/Registration-&#038;-Info/download-view-catalog':
+    object_id: 151
+  'more/Registration-&#038;-Info/newsletter-sign-up':
+    object_id: 153
+  'more/Registration-&#038;-Info/how-to-enroll':
+    object_id: 155
+  'more/Registration-&#038;-Info/refund-policies':
+    object_id: 157
+  'more/Registration-&#038;-Info/Directions-&#038;-Parking':
+    object_id: 160
+  'more/Registration-&#038;-Info/lodging-info':
+    object_id: 162
+  more/call-for-entries:
+    object_id: 30
+  more/call-for-entries/project-exhibition:
+    object_id: 164
+  more/call-for-entries/the-creative-portrait-exhibition:
+    object_id: 166
+  'more/call-for-entries/The-Connected-World:-2020':
+    object_id: 170
+  more/call-for-entries/fine-art-exhibition:
+    object_id: 172
+  more/call-for-entries/Member’s-Exhibition:
+    object_id: 174
+  more/call-for-entries/photo-book-competition:
+    object_id: 176
+  more/exhibitions:
+    object_id: 32
+  more/exhibitions/upcoming-exhibitions:
+    object_id: 178
+  more/exhibitions/current-exhibitions:
+    object_id: 180
+  more/exhibitions/past-exhibitions:
+    object_id: 182
+  more/exhibitions/online-galleries:
+    object_id: 184
+  my-account:
+    object_id: 591
+  donate:
+    object_id: 48
+    attributes: {  }
+    link_attributes: {  }
+    dropdown_dir: right
+    dropdown_hide: '0'
+    width: auto
+    icon: 'fa fa-heart'

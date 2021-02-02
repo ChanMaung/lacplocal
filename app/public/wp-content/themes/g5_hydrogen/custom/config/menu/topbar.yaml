@@ -1,0 +1,13 @@
+ordering:
+  my-account: ''
+  donate: ''
+items:
+  my-account:
+    object_id: 591
+  donate:
+    attributes: {  }
+    link_attributes: {  }
+    dropdown_dir: right
+    dropdown_hide: '0'
+    width: auto
+    icon: 'fa fa-heart'

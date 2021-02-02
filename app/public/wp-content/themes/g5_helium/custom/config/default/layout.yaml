@@ -1,0 +1,164 @@
+version: 2
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: default
+  timestamp: 1599577368
+layout:
+  /navigation/:
+    -
+      - 'logo-3690 20'
+      - 'menu-5282 65'
+      - 'spacer-5958 15'
+  /header/: {  }
+  /intro/: {  }
+  /features/: {  }
+  /utility/: {  }
+  /above/: {  }
+  /testimonials/: {  }
+  /expanded/: {  }
+  /container-main/:
+    -
+      -
+        'aside 25':
+          -
+            - position-position-4734
+      -
+        'mainbar 50':
+          -
+            - system-content-1587
+      -
+        'sidebar 25':
+          -
+            - position-position-3949
+  /footer/:
+    -
+      - 'logo-9571 33'
+      - 'custom-5839 34'
+      - 'custom-1439 33'
+    -
+      - 'custom-6479 33.3'
+      - 'custom-6935 33.3'
+      - 'googlemap-1665 33.3'
+    -
+      - 'spacer-4445 75'
+      - 'totop-1779 25'
+  /offcanvas/:
+    -
+      - mobile-menu-5697
+structure:
+  navigation:
+    type: section
+    attributes:
+      boxed: ''
+  header:
+    attributes:
+      boxed: ''
+      class: ''
+  intro:
+    type: section
+    attributes:
+      boxed: ''
+  features:
+    type: section
+    attributes:
+      boxed: ''
+  utility:
+    type: section
+    attributes:
+      boxed: ''
+      class: ''
+  above:
+    type: section
+    attributes:
+      boxed: ''
+  testimonials:
+    type: section
+    attributes:
+      boxed: ''
+  expanded:
+    type: section
+    attributes:
+      boxed: ''
+  aside:
+    attributes:
+      class: ''
+    block:
+      fixed: '1'
+  mainbar:
+    type: section
+    subtype: main
+  sidebar:
+    type: section
+    subtype: aside
+    attributes:
+      class: ''
+    block:
+      fixed: '1'
+  container-main:
+    attributes:
+      boxed: ''
+  footer:
+    attributes:
+      boxed: ''
+  offcanvas:
+    attributes:
+      boxed: ''
+content:
+  logo-3690:
+    title: 'Logo / Image'
+    attributes:
+      url: 'http://lapct2.local/'
+      target: _self
+      image: 'gantry-media://lacp.logotrans.png'
+      link: '1'
+  menu-5282:
+    attributes:
+      menu: menu
+      hoverExpand: '1'
+      mobileTarget: '1'
+  position-position-4734:
+    title: Aside
+    attributes:
+      key: aside
+  position-position-3949:
+    title: Sidebar
+    attributes:
+      key: sidebar
+  logo-9571:
+    title: 'Logo / Image'
+    attributes:
+      url: 'http://lacpgantry.local/'
+      image: 'gantry-media://lacp.logotrans.png'
+    block:
+      variations: nomarginall
+  custom-5839:
+    title: 'Custom HTML'
+    attributes:
+      html: '<h2>HOURS OF OPERATION</h2>'
+  custom-1439:
+    title: 'Custom HTML'
+    attributes:
+      html: '<h2>MAP</h2>'
+  custom-6479:
+    title: 'Custom HTML'
+    attributes:
+      html: "<p>5566 W. Washington Blvd.<br />Los Angeles, CA 90016<br />Phone: 323-464-0909<br />Fax: 323-433-4106<br />Email:&nbsp;<a href=\"mailto:info@lacphoto.org\">info@lacphoto.org</a></p>\n<p><a href=\"https://lacphoto.org/about-us/history-mission-statement/\" target=\"_blank\" rel=\"noopener noreferrer\">OUR MISSION</a></p>\n<p><a href=\"https://lacphoto.org/about-us/staff/\" target=\"_blank\" rel=\"noopener noreferrer\">OUR STAFF</a></p>\n<p><a href=\"https://lacphoto.org/about-us/board-officers-advisors/\" target=\"_blank\" rel=\"noopener noreferrer\">OUR BOARD</a></p>\n<p>&nbsp;</p>"
+    block:
+      variations: nomarginall
+  custom-6935:
+    title: 'Custom HTML'
+    attributes:
+      html: '<p>&nbsp;By phone only - 323.464.0909.<br />Monday, 10 am - 4 pm PST<br />Tuesday, 10 am - 4 pm PST<br />Wednesday, 10 am - 4 pm PST<br />Thursday, 10 am - 4 pm PST<br />Friday, 10 am - 4 pm PST<br />Saturday, 8 am - 12 pm PST<br />Sunday, 8 am - 12 pm PST</p>'
+  googlemap-1665:
+    title: 'Google Map'
+    attributes:
+      apikey: AIzaSyBjjkER62jcBNaVyTTZYeNQaPgVw2Zz6UQ
+      width: 100%
+      height: 500px
+      maptype: ROADMAP
+      latitude: '52.052312'
+      longitude: '4.447141'
+      zoom: '7'
+      defaultmarker: show
+  totop-1779:
+    title: 'To Top'

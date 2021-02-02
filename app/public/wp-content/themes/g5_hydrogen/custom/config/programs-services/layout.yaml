@@ -1,0 +1,317 @@
+version: 2
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: default
+  timestamp: 1602462450
+layout:
+  header: {  }
+  /navigation/: {  }
+  /main/:
+    -
+      - 'onepage-menu-9812 20'
+      - 'system-content-8192 80'
+  footer: {  }
+  offcanvas: {  }
+structure:
+  header:
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - children
+  navigation:
+    type: section
+    attributes:
+      boxed: ''
+      class: ''
+      variations: ''
+  main:
+    attributes:
+      boxed: ''
+      class: ''
+      variations: ''
+  footer:
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - children
+  offcanvas:
+    inherit:
+      outline: membership
+      include:
+        - attributes
+        - block
+        - children
+content:
+  onepage-menu-9812:
+    title: 'OnePage Menu'
+    attributes:
+      stickyoffset: '130'
+      smoothscrolloffset: '120'
+      boundary: '#g-footer'
+      items:
+        -
+          title: 'Programs and Services'
+          icon: ''
+          link: 'http://lapct2.local/programs-services/'
+          subtitle1: ''
+          subicon1: ''
+          sublink1: ''
+          subtitle2: ''
+          subicon2: ''
+          sublink2: ''
+          subtitle3: ''
+          subicon3: ''
+          sublink3: ''
+          subtitle4: ''
+          subicon4: ''
+          sublink4: ''
+          subtitle5: ''
+          subicon5: ''
+          sublink5: ''
+          class: ''
+          extra: {  }
+          name: 'Program & Services'
+        -
+          title: 'One-Year Professional Program'
+          icon: ''
+          link: 'http://lapct2.local/programs-services/one-year-professional-program/'
+          subtitle1: ''
+          subicon1: ''
+          sublink1: ''
+          subtitle2: ''
+          subicon2: ''
+          sublink2: ''
+          subtitle3: ''
+          subicon3: ''
+          sublink3: ''
+          subtitle4: ''
+          subicon4: ''
+          sublink4: ''
+          subtitle5: ''
+          subicon5: ''
+          sublink5: ''
+          class: ''
+          extra: {  }
+          name: 'One-Year Professional Program'
+        -
+          title: 'Certificate Programs'
+          icon: ''
+          link: 'http://lapct2.local/programs-services/certificate-programs/'
+          subtitle1: ''
+          subicon1: ''
+          sublink1: ''
+          subtitle2: ''
+          subicon2: ''
+          sublink2: ''
+          subtitle3: ''
+          subicon3: ''
+          sublink3: ''
+          subtitle4: ''
+          subicon4: ''
+          sublink4: ''
+          subtitle5: ''
+          subicon5: ''
+          sublink5: ''
+          class: ''
+          extra: {  }
+          name: 'Certificate Programs'
+        -
+          title: 'International Student Program'
+          icon: ''
+          link: 'http://lapct2.local/programs-services/international-student-program/'
+          subtitle1: ''
+          subicon1: ''
+          sublink1: ''
+          subtitle2: ''
+          subicon2: ''
+          sublink2: ''
+          subtitle3: ''
+          subicon3: ''
+          sublink3: ''
+          subtitle4: ''
+          subicon4: ''
+          sublink4: ''
+          subtitle5: ''
+          subicon5: ''
+          sublink5: ''
+          class: ''
+          extra: {  }
+          name: 'International Student Program'
+        -
+          title: 'Street Shooting Program'
+          icon: ''
+          link: 'http://lapct2.local/programs-services/street-shooting-program/'
+          subtitle1: ''
+          subicon1: ''
+          sublink1: ''
+          subtitle2: ''
+          subicon2: ''
+          sublink2: ''
+          subtitle3: ''
+          subicon3: ''
+          sublink3: ''
+          subtitle4: ''
+          subicon4: ''
+          sublink4: ''
+          subtitle5: ''
+          subicon5: ''
+          sublink5: ''
+          class: ''
+          extra: {  }
+          name: 'Street Shooting Program'
+        -
+          title: 'Youth Program'
+          icon: ''
+          link: 'http://lapct2.local/programs-services/youth-program/'
+          subtitle1: ''
+          subicon1: ''
+          sublink1: ''
+          subtitle2: ''
+          subicon2: ''
+          sublink2: ''
+          subtitle3: ''
+          subicon3: ''
+          sublink3: ''
+          subtitle4: ''
+          subicon4: ''
+          sublink4: ''
+          subtitle5: ''
+          subicon5: ''
+          sublink5: ''
+          class: ''
+          extra: {  }
+          name: 'Youth Program'
+        -
+          title: 'Mentorship Program'
+          icon: ''
+          link: 'http://lapct2.local/programs-services/mentorship-program/'
+          subtitle1: ''
+          subicon1: ''
+          sublink1: ''
+          subtitle2: ''
+          subicon2: ''
+          sublink2: ''
+          subtitle3: ''
+          subicon3: ''
+          sublink3: ''
+          subtitle4: ''
+          subicon4: ''
+          sublink4: ''
+          subtitle5: ''
+          subicon5: ''
+          sublink5: ''
+          class: ''
+          extra: {  }
+          name: 'Mentorship Program'
+        -
+          title: 'Sell Work on Artsy'
+          icon: ''
+          link: 'http://lapct2.local/programs-services/sell-work-on-artsy/'
+          subtitle1: ''
+          subicon1: ''
+          sublink1: ''
+          subtitle2: ''
+          subicon2: ''
+          sublink2: ''
+          subtitle3: ''
+          subicon3: ''
+          sublink3: ''
+          subtitle4: ''
+          subicon4: ''
+          sublink4: ''
+          subtitle5: ''
+          subicon5: ''
+          sublink5: ''
+          class: ''
+          extra: {  }
+          name: 'Sell Work on Artsy'
+        -
+          title: 'Private Lessons'
+          icon: ''
+          link: 'http://lapct2.local/programs-services/private-lessons/'
+          subtitle1: ''
+          subicon1: ''
+          sublink1: ''
+          subtitle2: ''
+          subicon2: ''
+          sublink2: ''
+          subtitle3: ''
+          subicon3: ''
+          sublink3: ''
+          subtitle4: ''
+          subicon4: ''
+          sublink4: ''
+          subtitle5: ''
+          subicon5: ''
+          sublink5: ''
+          class: ''
+          extra: {  }
+          name: 'Private Lessons'
+        -
+          title: 'Gift Certificates'
+          icon: ''
+          link: 'http://lapct2.local/programs-services/gift-certificates/'
+          subtitle1: ''
+          subicon1: ''
+          sublink1: ''
+          subtitle2: ''
+          subicon2: ''
+          sublink2: ''
+          subtitle3: ''
+          subicon3: ''
+          sublink3: ''
+          subtitle4: ''
+          subicon4: ''
+          sublink4: ''
+          subtitle5: ''
+          subicon5: ''
+          sublink5: ''
+          class: ''
+          extra: {  }
+          name: 'Gift Certificates'
+        -
+          title: Library
+          icon: ''
+          link: 'http://lapct2.local/programs-services/library/'
+          subtitle1: ''
+          subicon1: ''
+          sublink1: ''
+          subtitle2: ''
+          subicon2: ''
+          sublink2: ''
+          subtitle3: ''
+          subicon3: ''
+          sublink3: ''
+          subtitle4: ''
+          subicon4: ''
+          sublink4: ''
+          subtitle5: ''
+          subicon5: ''
+          sublink5: ''
+          class: ''
+          extra: {  }
+          name: Library
+        -
+          title: 'The Center (Rental)'
+          icon: ''
+          link: 'http://lapct2.local/programs-services/the-center-rental/'
+          subtitle1: ''
+          subicon1: ''
+          sublink1: ''
+          subtitle2: ''
+          subicon2: ''
+          sublink2: ''
+          subtitle3: ''
+          subicon3: ''
+          sublink3: ''
+          subtitle4: ''
+          subicon4: ''
+          sublink4: ''
+          subtitle5: ''
+          subicon5: ''
+          sublink5: ''
+          class: ''
+          extra: {  }
+          name: 'The Center (Rental)'

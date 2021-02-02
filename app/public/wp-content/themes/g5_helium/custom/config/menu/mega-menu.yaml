@@ -1,0 +1,44 @@
+ordering:
+  classes: ''
+  instructors: ''
+  membership: ''
+  happenings: ''
+  more:
+    about-us:
+      'Julia-Dean,-Executive-Director': ''
+      'Sponsors-&#038;-Partners':
+        corporate-sponsors: ''
+    'Programs-&#038;-Services':
+      certificate-programs:
+        general-course-of-study: ''
+items:
+  classes:
+    object_id: 14
+  instructors:
+    object_id: 16
+  membership:
+    object_id: 18
+  happenings:
+    object_id: 20
+  more:
+    object_id: 441
+    columns:
+      - 100
+  more/about-us:
+    attributes: {  }
+    link_attributes: {  }
+    dropdown_dir: right
+    dropdown_hide: '0'
+    width: auto
+  'more/about-us/Julia-Dean,-Executive-Director':
+    object_id: 77
+  'more/about-us/Sponsors-&#038;-Partners':
+    object_id: 91
+  'more/about-us/Sponsors-&#038;-Partners/corporate-sponsors':
+    object_id: 93
+  'more/Programs-&#038;-Services':
+    object_id: 24
+  'more/Programs-&#038;-Services/certificate-programs':
+    object_id: 103
+  'more/Programs-&#038;-Services/certificate-programs/general-course-of-study':
+    object_id: 105

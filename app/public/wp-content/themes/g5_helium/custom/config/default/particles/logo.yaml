@@ -1,0 +1,9 @@
+enabled: '1'
+url: 'http://lacpgantry.local/'
+target: _self
+image: 'gantry-media://lacp.logotrans.png'
+height: ''
+link: '0'
+svg: ''
+text: LACP
+class: g-logo

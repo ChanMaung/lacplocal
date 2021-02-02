@@ -1,0 +1,62 @@
+name: membership
+timestamp: 1606084891
+version: 7
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: home_-_particles
+  timestamp: 1605213405
+positions: {  }
+sections:
+  navigation: Navigation
+  intro: Intro
+  features: Features
+  utility: Utility
+  above: Above
+  testimonials: Testimonials
+  expanded: Expanded
+  header: Header
+  mainbar: Mainbar
+  sidebar: Sidebar
+  footer: Footer
+  offcanvas: Offcanvas
+particles:
+  logo:
+    logo-3210: 'Logo / Image'
+    logo-2667: 'Logo / Image'
+  menu:
+    menu-8757: Menu
+  spacer:
+    spacer-6255: Spacer
+    spacer-2235: Spacer
+  onepage-menu:
+    onepage-menu-5763: 'OnePage Menu'
+  content:
+    system-content-3614: 'Page Content'
+  custom:
+    custom-6030: 'Custom HTML'
+    custom-4300: 'Custom HTML'
+    custom-6235: 'Custom HTML'
+    custom-7083: 'Custom HTML'
+  googlemap:
+    googlemap-4023: 'Google Map'
+  totop:
+    totop-7399: 'To Top'
+  mobile-menu:
+    mobile-menu-4144: Mobile-menu
+inherit:
+  default:
+    navigation: navigation
+    logo-3210: logo-3690
+    menu-8757: menu-5282
+    spacer-6255: spacer-5958
+    footer: footer
+    logo-2667: logo-9571
+    custom-6030: custom-5839
+    custom-4300: custom-1439
+    custom-6235: custom-6479
+    custom-7083: custom-6935
+    googlemap-4023: googlemap-1665
+    spacer-2235: spacer-4445
+    totop-7399: totop-1779
+    offcanvas: offcanvas
+    mobile-menu-4144: mobile-menu-5697
