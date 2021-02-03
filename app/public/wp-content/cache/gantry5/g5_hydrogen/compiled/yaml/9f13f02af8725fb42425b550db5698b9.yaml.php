@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => 'C:/Users/Chanl/Local Sites/lacplocal/app/public/wp-content/themes/g5_hydrogen/custom/config/about_us/index.yaml',
-    'modified' => 1612308002,
+    'modified' => 1612310422,
     'data' => [
         'name' => 'about_us',
         'timestamp' => 1612306941,
